@@ -30,13 +30,13 @@ document.addEventListener('DOMContentLoaded', () => {
             message.push(secretMessages[i].message)
           }
         }
-      }
-      if (binaryNumber.length >= 5 && binaryNumber[binaryNumber.length - 5] === '1') {
-        message.reverse()
+
+        if (binaryNumber.length >= 5 && binaryNumber[binaryNumber.length - 5] === '1') {
+          message.reverse()
+        }
+        output.innerHTML = message.join(',')
       }
     }
-
-    output.innerHTML = message.join(',')
   }
   but.addEventListener('click', display)
 })
