@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .container {
   min-width: 450px;
   display: flex;
@@ -62,7 +63,7 @@
   padding: 10px;
   border: none;
   color: #f5faf5;
-  background-color:#f301ce;
+  background-color: #f301ce;
   border-radius: 5px;
   font-size: larger;
   font-weight: 600;
