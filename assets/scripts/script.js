@@ -1,4 +1,5 @@
 'use strict'
+// selecting elements from the DOM
 const input = document.getElementById('word')
 const output = document.getElementById('display')
 const but = document.getElementById('check-btn')
