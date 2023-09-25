@@ -1,5 +1,6 @@
 # Secret-Handshake
 This little project is about secret message print with some hand that is shake with a buttom `shake`.
+<!--eslint-disable-line -->
 ## Fonctionality
 - you can type your number on and input;
 - press on `share` and your your number is converted into binary and then reconverted by multiplying each binary number by the power of two, then displaying the following message `1 = wink
@@ -11,7 +12,8 @@ This little project is about secret message print with some hand that is shake w
 ## Prerequisites
 - Node.js and npm must be installed on your machine.
 ## Installation
-- Clone this repository on your machine access the project directory in your terminal. 
+- Clone this repository on your machine.
+- Access the project directory in your terminal. 
 - Install the dependencies by running the npm install command.
 
 ## usage
