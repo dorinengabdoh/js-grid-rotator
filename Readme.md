@@ -12,7 +12,6 @@ This little project is about secret message print with some hand that is shake w
 - Node.js and npm must be installed on your machine.
 ## Installation
 - Clone this repository on your machine.
-- Access the project directory in your terminal. 
 - Install the dependencies by running the npm install command.<!--eslint-disable-line -->
 ## usage
 - can be used for mathematicians;
