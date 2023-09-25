@@ -25,11 +25,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const message = []
     for (let i = 0; i < Math.min(reverseArrBin.length, secretMessages.length); i++) {
       if (reverseArrBin[i] === '1') {
-        for (let i = 0; i < reverseArrBin.length; i++) {
-          if (i < secretMessages.length && reverseArrBin[i] === '1') {
-            message.push(secretMessages[i].message)
-          }
+        // for (let i = 0; i < reverseArrBin.length; i++) {
+        if (i < secretMessages.length && reverseArrBin[i] === '1') {
+          message.push(secretMessages[i].message)
         }
+        // }
 
         if (binaryNumber.length >= 5 && binaryNumber[binaryNumber.length - 5] === '1') {
           message.reverse()

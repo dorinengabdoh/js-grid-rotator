@@ -20,7 +20,6 @@
   text-align: center;
   font-size: 40px;
   padding-top: 60px;
-  padding-right: 08%;
 }
 
 .title {
@@ -30,9 +29,9 @@
 .card {
   min-width: 490px;
   max-width: 768px;
-  background-color: #6cd610;
+  background-color: #d0e6bd;
   border-radius: 10px;
-  padding: 20px 5px;
+  padding: 30px 5px;
   justify-content: center;
   margin-top: 60px;
   display: flex;
@@ -40,17 +39,18 @@
 }
 
 .input-container {
-  gap: 3rem;
+  gap: rem;
   display: flex;
-  flex-direction: column;
   margin-bottom: 5rem;
-  padding-left: 100px;
+  padding-left: 40px;
+  padding-top: 20px;
+
 }
 
 .input {
   width: 60%;
   border: solid 2px #000;
-  padding: 10px 0;
+  padding: 10px;
   font-size: larger;
   border-radius: 5px;
 }
@@ -69,7 +69,7 @@
   font-weight: 600;
   cursor: pointer;
   width: fit-content;
-  margin-left: 90px;
+  margin-left: 30px;
 }
 
 .btn:hover {
@@ -77,10 +77,10 @@
 }
 
 .output {
-  margin: 0 auto;
-  padding: 18px;
-  border: 1px solid #7b5a5a;
+  margin-left: 80px;
+  height: fit-content;
   width: 50%;
+  font-size: 29px;
   border-radius: 5px;
   color: #060606;
 }
