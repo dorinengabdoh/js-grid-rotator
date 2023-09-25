@@ -16,6 +16,7 @@ const convertToBinary = (number) => {
   }
   return binary
 }
+// <!--eslint-disable-line -->
 document.addEventListener('DOMContentLoaded', () => {
   const display = () => {
     const binaryNumber = convertToBinary(input.value)
